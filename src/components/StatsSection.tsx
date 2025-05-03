@@ -31,7 +31,7 @@ export function StatsSection() {
           places. Our customers will be provided with everything necessary for
           comfortable conditions.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8" data-aos="fade-up">
           <StatCard icon={<Users size={32} />} value="10K+" label="Happy Customers" description="We have over 10,000 happy customers that come back to us for future adventures." />
           <StatCard icon={<Truck size={32} />} value="247" label="Comfortable Vans" description="Our vans are equipped with all the necessary things to make your journey comfortable." />
           <StatCard icon={<Map size={32} />} value="3860" label="Completed Tours" description="We have already organized trips across Canada and USA, creating unique experiences that last forever." />

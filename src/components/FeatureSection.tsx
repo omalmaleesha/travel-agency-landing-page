@@ -15,11 +15,11 @@ export function FeatureSection({
 }: FeatureSectionProps) {
   return <section className="w-full bg-[#0c1112] py-16 md:py-24">
       <div className="container px-6 md:px-12">
-        <div className={`flex flex-col ${imagePosition === 'left' ? 'md:flex-row-reverse' : 'md:flex-row'} gap-8 md:gap-12 items-center`}>
-          <div className="w-full md:w-1/2">
+        <div className={`flex flex-col ${imagePosition === 'left' ? 'md:flex-row-reverse' : 'md:flex-row'} gap-8 md:gap-12 items-center`} data-aos="fade-up">
+          <div className="w-full md:w-1/2" data-aos="fade-left">
             <img src={image} alt={title} className="w-full h-[300px] md:h-[400px] object-cover rounded-lg" />
           </div>
-          <div className="w-full md:w-1/2 py-6">
+          <div className="w-full md:w-1/2 py-6" data-aos="fade-right">
             <div className="flex items-center mb-4">
               <div className="h-px w-8 bg-[#d5b062] mr-3"></div>
               <span className="text-xs tracking-wider text-[#d5b062]">

@@ -9,17 +9,17 @@ export function HeroSection() {
     }}>
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
-      <div className="relative z-1 container px-6 md:px-12 text-center md:text-left">
+      <div className="relative z-1 container px-6 md:px-12 text-center md:text-left" data-aos="fade-up">
         <div className="flex flex-col max-w-xl">
-          <p className="text-sm text-white/80 mb-4">
+          <p className="text-sm text-white/80 mb-4" data-aos="fade-right">
             Go On The Trip Of Your Life
           </p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif mb-4">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif mb-4" data-aos="zoom-in">
             It's Great Time
             <br />
             to Start Living Now
           </h1>
-          <div className="mt-6">
+          <div className="mt-6" data-aos="fade-up">
             <Button>Know More</Button>
           </div>
         </div>
